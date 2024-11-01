@@ -1,0 +1,194 @@
+h1{
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 45px;
+  font-size: 60px;
+}
+h3{
+    color: #e65f78;
+    display: inline-block;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+}
+h2{ font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+h4{ 
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 600;    
+    line-height: 1.4;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-family: "Mulish";
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+
+label {
+    font-weight: 600;
+    color: #000;
+    min-width: 85px;
+    display: inline-block;
+    font-family: "Mulish";
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+}
+/* ......................................Strat Icon With Text And Sub Text.................................. */
+
+.icon_text_subtext .cayrus-icon-list{
+    list-style-type: none;  
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+    line-height: 0;
+    width: 100%;
+
+}
+
+.cayrus-icon-list li{
+    width: 100%;
+    display: inline-block;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+
+.cayrus-icon-list li .cayrus-icon-text-icon {
+    display: inline-block ;
+
+    float: left ;
+    padding: 0 0 0 0;
+    font-size: 17px;
+    margin: 8px 0 0 0;
+    transition: 1s;
+}
+
+.cayrus-icon-list li .cayrus-icon-text-text-one {
+    display: inline-block ;
+    float: left ;
+    margin: 0 0 0 0;
+    font-family: "Mulish";
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #333;
+    padding: 0 0 0 0;
+    transition: 1s;
+}
+.cayrus-icon-list li .cayrus-icon-text-text-two {
+    display: inline-block ;
+    float: left ;
+    margin: 0 0 0 10px;
+    font-family: "Mulish";
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #333;
+    padding: 0 0 0 0;
+    transition: 1s;
+}
+.cayrus-icon-text-icon.icon_color_size_distance i{
+    transition: 1s;
+}
+
+/* ......................................end Icon With Text And Sub Text......................... */
+
+
+/* ======= Start cayrus Single Button =================== */
+.cayrus-single-button ul{
+
+  padding: 0px;
+  margin: 0px 0px -11px 0px;
+}
+
+.cayrus-single-button ul li {
+  border-color: #ff014f;
+  color: #ff014f;
+  font-size: 16px;
+  border: 1px solid #ff014f;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Mulish";
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  display: inline-block;
+  left: 0em;
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+
+.cayrus-single-button ul li span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #ff014f;
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+
+}
+
+.cayrus-single-button ul li:hover {
+  color: black;
+  
+}
+
+.cayrus-single-button ul li:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.cayrus-single-button ul li span:nth-child(1) {
+  --n: 1;
+}
+
+.cayrus-single-button ul li span:nth-child(2) {
+  --n: 2;
+}
+
+.cayrus-single-button ul li span:nth-child(3) {
+  --n: 3;
+}
+
+.cayrus-single-button ul li span:nth-child(4) {
+  --n: 4;
+}
+/* ======= end Single Button =================== */
+
